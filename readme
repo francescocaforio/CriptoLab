@@ -45,12 +45,8 @@ Francesco Paolo Caforio, docente di Scienze e Tecnologie Informatiche – IISS M
 
 📌 Suggerimenti per estensioni (opzionali)
 
-- Implementare la generazione delle **16 sottochiavi derivate** secondo la specifica DES
-- Realizzare il **decrittaggio** completo del blocco cifrato
+- Implementare la generazione delle 16 sottochiavi derivate secondo la specifica DES
+- Realizzare il decrittaggio completo del blocco cifrato
 - Aggiungere test automatici (`unittest` o `pytest`) per verificare permutazioni, xor e s‑box
 - Trasporre il notebook in file `.py` modulari e integrare un CLI o interfaccia leggera
-
----
-
-Se vuoi, posso anche aiutarti a trasformare questo contenuto in un vero file `README.md` da scaricare o aggiornare. Fammi sapere! 😊
 

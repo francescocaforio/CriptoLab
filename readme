@@ -1,3 +1,10 @@
-Il notebook è stato sviluppato nell’ambito del laboratorio CriptoLab – Alla scoperta della crittografia, realizzato presso l’IISS Majorana di Martina Franca e finanziato con risorse PNRR - DM 65/2023. Analizza e implementa l’algoritmo DES, uno degli algoritmi di crittografia simmetrica più importanti nella storia dell’informatica. Si presenta come un laboratorio didattico in cui teoria e pratica si intrecciano: da un lato vengono illustrate le fasi fondamentali del DES, dall’altro si offre la possibilità di osservare e sperimentare il funzionamento del cifrario tramite codice Python eseguibile. Questo approccio hands-on si dimostra particolarmente efficace per gli studenti, poiché consente di comprendere i meccanismi complessi della cifratura a blocchi attraverso esempi concreti.
+# 🔐 CriptoLab – Crittografia simmetrica con DES (Data Encryption Standard)
 
-A cura di Francesco Paolo Caforio, docente classe di concorso A-041 (Scienze e Tecnologie Informatiche) - IISS Majorana, Martina Franca, TA
+Laboratorio didattico sviluppato presso l'IISS Majorana di Martina Franca e finanziato dal PNRR (DM 65/2023), progettato e realizzato da **Francesco Paolo Caforio** (classe A‑041 – Scienze e Tecnologie Informatiche).
+
+Il notebook introduce in modo alternato teoria e pratica dell’algoritmo **DES**, fornendo una versione semplificata in Python con passaggi intermedi stampati per comprendere i meccanismi di cifratura a blocchi.
+
+---
+
+## 📂 Struttura del progetto
+

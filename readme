@@ -47,6 +47,4 @@ Francesco Paolo Caforio, docente di Scienze e Tecnologie Informatiche – IISS M
 
 - Implementare la generazione delle 16 sottochiavi derivate secondo la specifica DES
 - Realizzare il decrittaggio completo del blocco cifrato
-- Aggiungere test automatici (`unittest` o `pytest`) per verificare permutazioni, xor e s‑box
-- Trasporre il notebook in file `.py` modulari e integrare un CLI o interfaccia leggera
 

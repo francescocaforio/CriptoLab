@@ -1,26 +1,17 @@
-# 🔐 CriptoLab – Crittografia simmetrica con DES (Data Encryption Standard)
+🔐 CriptoLab – Crittografia simmetrica con DES (Data Encryption Standard)
 
 Laboratorio didattico sviluppato presso l'IISS Majorana di Martina Franca e finanziato dal PNRR (DM 65/2023), progettato e realizzato da **Francesco Paolo Caforio** (classe A‑041 – Scienze e Tecnologie Informatiche).
 
 Il notebook introduce in modo alternato teoria e pratica dell’algoritmo **DES**, fornendo una versione semplificata in Python con passaggi intermedi stampati per comprendere i meccanismi di cifratura a blocchi.
 
----
-
-## 📂 Struttura del progetto
-
-
----
-
-## 🧰 Dipendenze
+🧰 Dipendenze
 
 - Python 3.x  
 - Nessuna libreria esterna richiesta (usa solo `random` e funzioni native)
 
----
+🔧 Funzionamento
 
-## 🔧 Funzionamento
-
-**Il notebook implementa:**
+Il notebook implementa:
 - Tabelle DES fondamentali: `initial_permutation`, `final_permutation`, `expansion_table`, `S1…S8`
 - Generazione casuale di blocco di 64 bit e sottochiave a 48 bit
 - Funzioni principali:
@@ -32,9 +23,7 @@ Il notebook introduce in modo alternato teoria e pratica dell’algoritmo **DES*
 - Loop di **16 round** DES: espansione, XOR, applicazione S‑box, aggiornamento L₀/R₀, con stampa di ogni step
 - Permutazione finale e **swap** L‖R per output cifrato
 
----
-
-## 🚀 Come usare
+🚀 Come usare
 
 1. Apri `CriptoLab.ipynb` su Google Colab o VS Code/Jupyter.
 2. Esegui ogni cella in ordine per:
@@ -44,29 +33,17 @@ Il notebook introduce in modo alternato teoria e pratica dell’algoritmo **DES*
    - Eseguire 16 round con dettagli stampati a ogni passaggio
    - Applicare permutazione finale e swap L/R
 
----
-
-## 🧠 Obiettivi didattici
+🧠 Obiettivi didattici
 
 - Visualizzare fase per fase l’algoritmo **DES**
 - Comprendere il ruolo di permutazioni, espansione, S-box e XOR
 - Avvicinare concetti teorici (confusione, diffusione) con esempi pratici in Python
 
----
+👨‍🏫 Autore
 
-## 👨‍🏫 Autore
+Francesco Paolo Caforio, docente di Scienze e Tecnologie Informatiche – IISS Majorana, Martina Franca, TA
 
-**Francesco Paolo Caforio** (Insegnante di Scienze e Tecnologie Informatiche – IISS Majorana, Martina Franca, TA)
-
----
-
-## 📄 Licenza
-
-Il progetto è rilasciato con **licenza MIT**. Per maggiori dettagli, vedi il file [LICENSE](LICENSE).
-
----
-
-## 📌 Suggerimenti per estensioni (opzionali)
+📌 Suggerimenti per estensioni (opzionali)
 
 - Implementare la generazione delle **16 sottochiavi derivate** secondo la specifica DES
 - Realizzare il **decrittaggio** completo del blocco cifrato

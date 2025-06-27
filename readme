@@ -1,8 +1,8 @@
-🔐 # CriptoLab – Crittografia simmetrica con DES (Data Encryption Standard)
+🔐 CriptoLab – Crittografia simmetrica con Data Encryption Standard
 
-Laboratorio didattico sviluppato presso l'IISS Majorana di Martina Franca e finanziato dal PNRR (DM 65/2023), progettato e realizzato da **Francesco Paolo Caforio** (classe A‑041 – Scienze e Tecnologie Informatiche).
+Laboratorio didattico sviluppato presso l'IISS Majorana di Martina Franca e finanziato dal PNRR (DM 65/2023), progettato e realizzato da Francesco Paolo Caforio (classe A‑041 – Scienze e Tecnologie Informatiche).
 
-Il notebook introduce in modo alternato teoria e pratica dell’algoritmo **DES**, fornendo una versione semplificata in Python con passaggi intermedi stampati per comprendere i meccanismi di cifratura a blocchi.
+Il notebook introduce in modo alternato teoria e pratica dell’algoritmo DES, fornendo una versione semplificata in Python con passaggi intermedi stampati per comprendere i meccanismi di cifratura a blocchi.
 
 🧰 Dipendenze
 
@@ -20,12 +20,12 @@ Il notebook implementa:
   - `expand_32_to_48(bits32)`
   - `xor_48bit(...)`, `xor_32bit(...)`
   - `apply_sbox(sbox, bits)`
-- Loop di **16 round** DES: espansione, XOR, applicazione S‑box, aggiornamento L₀/R₀, con stampa di ogni step
-- Permutazione finale e **swap** L‖R per output cifrato
+- Loop di 16 round DES: espansione, XOR, applicazione S‑box, aggiornamento L₀/R₀, con stampa di ogni step
+- Permutazione finale e swap L‖R per output cifrato
 
 🚀 Come usare
 
-1. Apri `CriptoLab.ipynb` su Google Colab o VS Code/Jupyter.
+1. Apri `CriptoLab.ipynb` su Google Colab 
 2. Esegui ogni cella in ordine per:
    - Generare un blocco casuale di 64 bit
    - Applicare la permutazione iniziale e suddivisione L₀/R₀
@@ -35,7 +35,7 @@ Il notebook implementa:
 
 🧠 Obiettivi didattici
 
-- Visualizzare fase per fase l’algoritmo **DES**
+- Visualizzare fase per fase l’algoritmo DES
 - Comprendere il ruolo di permutazioni, espansione, S-box e XOR
 - Avvicinare concetti teorici (confusione, diffusione) con esempi pratici in Python
 
@@ -43,7 +43,7 @@ Il notebook implementa:
 
 Francesco Paolo Caforio, docente di Scienze e Tecnologie Informatiche – IISS Majorana, Martina Franca, TA
 
-📌 Suggerimenti per estensioni (opzionali)
+📌 Suggerimenti per estensioni 
 
 - Implementare la generazione delle 16 sottochiavi derivate secondo la specifica DES
 - Realizzare il decrittaggio completo del blocco cifrato
